@@ -1,5 +1,0 @@
-DOMAIN = "energieverbrauch"
-CONF_RESOURCES = "ressourcen"
-CONF_UNIT = "einheit"
-CONF_STORAGE = "speicherort"
-SQLITE_DB = "energieverbrauch.db"
