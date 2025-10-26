@@ -5,6 +5,6 @@
   "documentation": "https://github.com/Stiesel/energieverbrauch",
   "requirements": [],
   "dependencies": [],
-  "codeowners": ["@deinname"],
+  "codeowners": ["@Stiesel"],
   "config_flow": true
 }
