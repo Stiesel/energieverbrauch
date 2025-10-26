@@ -1,6 +1,0 @@
-{
-  "component.energieverbrauch.config.title": "Energieverbrauch",
-  "component.energieverbrauch.config.step.user.data.ressourcen": "Ressourcen (kommagetrennt)",
-  "component.energieverbrauch.config.step.user.data.einheit": "Einheit",
-  "component.energieverbrauch.config.step.user.data.speicherort": "Speicherort"
-}
