@@ -1,7 +1,7 @@
 {
   "domain": "energieverbrauch",
   "name": "Energieverbrauch",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "documentation": "https://github.com/Stiesel/energieverbrauch",
   "requirements": [],
   "dependencies": [],
