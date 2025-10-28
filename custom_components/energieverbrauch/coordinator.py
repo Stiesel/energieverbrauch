@@ -7,7 +7,7 @@ from .const import SQLITE_DB
 _LOGGER = logging.getLogger(__name__)
 
 def init_db(hass: HomeAssistant) -> bool:
-    """Initialisiert die SQLite-Datenbank, falls sie noch nicht existiert."""
+    """Initialisiert die SQLite-Datenbank."""
     db_path = os.path.join(hass.config.path(), SQLITE_DB)
     try:
         conn = sqlite3.connect(db_path)
@@ -30,7 +30,7 @@ def init_db(hass: HomeAssistant) -> bool:
         return False
 
 def insert_reading(resource: str, date: str, value: float, unit: str) -> bool:
-    """Speichert einen neuen Verbrauchswert in der Datenbank."""
+    """Speichert einen neuen Verbrauchswert."""
     try:
         conn = sqlite3.connect(SQLITE_DB)
         cursor = conn.cursor()
@@ -40,7 +40,7 @@ def insert_reading(resource: str, date: str, value: float, unit: str) -> bool:
         """, (resource, date, value, unit))
         conn.commit()
         conn.close()
-        _LOGGER.info("Neuer Verbrauchswert gespeichert: %s - %s %s am %s", resource, value, unit, date)
+        _LOGGER.info("Verbrauchswert gespeichert: %s - %s %s am %s", resource, value, unit, date)
         return True
     except Exception as e:
         _LOGGER.error("Fehler beim Speichern des Verbrauchswerts: %s", e)
