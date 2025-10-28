@@ -3,5 +3,12 @@
   "component.energieverbrauch.config.step.user.data.ressourcen": "Ressourcen (kommagetrennt)",
   "component.energieverbrauch.config.step.user.data.einheit": "Einheit",
   "component.energieverbrauch.config.step.user.data.speicherort": "Speicherort"
+  "component.energieverbrauch.config.step.input.title": "Verbrauch eingeben",
+"component.energieverbrauch.config.step.input.description": "Gib Datum, Ressource und Wert ein.",
+"component.energieverbrauch.config.step.input.data.datum": "Datum (YYYY-MM-DD)",
+"component.energieverbrauch.config.step.input.data.ressource": "Ressource",
+"component.energieverbrauch.config.step.input.data.wert": "Verbrauchswert",
+"component.energieverbrauch.config.step.input.data.einheit": "Einheit",
+"component.energieverbrauch.config.step.input.error.speicherfehler": "Fehler beim Speichern. Bitte prüfe die Eingabe."
   "component.energieverbrauch.config.step.user.error.sqlite_nicht_verfuegbar": "SQLite ist nicht verfügbar. Bitte installiere ein SQLite-Add-on oder wähle 'recorder'."
 }
